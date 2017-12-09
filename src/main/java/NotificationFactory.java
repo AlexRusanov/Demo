@@ -1,3 +1,6 @@
+import service.Notification;
+import service.impl.Mail;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;

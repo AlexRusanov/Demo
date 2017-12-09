@@ -9,7 +9,7 @@ public class NotificationFactory {
 
     final static Map<String, Supplier<Notification>> map = new HashMap<>();
     static {
-        map.put("Mail", Mail::new);
+        map.put("MAIL", Mail::new);
     }
     public Notification getNotification (String notificationType){
         Supplier<Notification> notification = map.get(notificationType);

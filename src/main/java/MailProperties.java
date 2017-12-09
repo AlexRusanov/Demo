@@ -1,7 +1,9 @@
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
 /**
  * Created by alexandrrusanov on 9/12/17.
  */
-//@ConfigurationProperties(prefix = "mail")
+@ConfigurationProperties(prefix = "mail")
 public class MailProperties {
 
     private String baseUrl;
